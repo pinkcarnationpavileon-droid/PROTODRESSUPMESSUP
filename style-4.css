@@ -285,7 +285,7 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   pointer-events: none;
-  transform: translateY(-25px); /* Shifts the eyes up by 25 pixels */
+  transform: translateY(-45px); /* Shifts the eyes up by 25 pixels */
 }
 .nav-button-hair .btn-message {
   top: 100%;
