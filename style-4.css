@@ -287,6 +287,31 @@ body {
   pointer-events: none;
   transform: translateY(-45px); /* Shifts the eyes up by 25 pixels */
 }
+#noseLayer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  pointer-events: none;
+  transform: translateY(-25px); /* Adjust this value (e.g., -20px or -30px) as needed */
+}
+
+#lipsLayer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  pointer-events: none;
+  transform: translateY(-25px); /* Adjust this value to align the lips perfectly */
+}
 .nav-button-hair .btn-message {
   top: 100%;
   margin-top: 8px;
